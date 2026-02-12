@@ -72,14 +72,22 @@ article {
     margin: 50px auto;
     box-shadow: 0 8px 24px #899CA0;
     text-align: left;
+    border-radius: 10px;
 }
 
 
 /*///////////// 3.3 Support /////////////*/
 .support {
     align-content: center;
+    /*image: width 600px;*/
+    display: inline-block;
 }
-
+img {
+    display: inline-block;
+    width: 660px;
+    border-radius: 10px;
+    margin-top: 60px;
+}
 
 /*///////////// 3.4 Faq /////////////*/
 
