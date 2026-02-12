@@ -1,0 +1,85 @@
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+        3.1 Header
+        3.2 Testimonial
+        3.3 Support
+        3.4 Faq
+        3.5 Footer
+////////////////////////////////////////////////////////////////////////*/
+
+/*kleuren (grijs #899CA0 en donkergroen #1C2B32)*/
+
+/*////////////////////////
+    1. Global Styles
+////////////////////////*/
+* {
+    margin: 0;
+    padding: 0;
+
+}
+ol, ul {
+    list-style: none;
+}
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+H1 {
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+/*////////////////////////
+    3. Areas
+////////////////////////*/
+
+/*///////////// 3.1 Header /////////////*/
+body {
+    background-image: url("assets/images/mountains.jpg");
+}
+main {
+    width: "1000px";
+    margin: 100px auto;
+
+}
+
+.content-domeinshop {
+    line-height: 3;
+
+}
+.check-availability {
+    margin-left: -1px;
+}
+
+/*///////////// 3.2 Testimonial /////////////*/
+.testimonial {
+    align-content: center;
+}
+article {
+    width: 500px;
+    padding:50px 50px;
+    margin: auto 50px;
+    border: 1px:
+}
+
+
+/*///////////// 3.3 Support /////////////*/
+.support {
+    align-content: center;
+}
+
+
+/*///////////// 3.4 Faq /////////////*/
+
+ul {
+    list-style: circle;
+}
+
+/*///////////// 3.5 Footer /////////////*/
