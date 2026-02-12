@@ -18,7 +18,6 @@ Table of Contents:
 * {
     margin: 0;
     padding: 0;
-
 }
 ol, ul {
     list-style: none;
@@ -42,7 +41,7 @@ H1 {
 
 /*///////////// 3.1 Header /////////////*/
 body {
-    background-image: url("assets/images/mountains.jpg");
+    background-image: url ("assets/images/mountains.jpg");
 }
 main {
     width: max(1000px);
@@ -56,15 +55,19 @@ main {
     margin-bottom: 200px;
 
 }
-.check-availability {
-    margin-left: -1px;
+/*span {}*/
+.check-availability span {
+    border: 1px;
+    border: color #1C2B32;
+    width: 500 px;
+    height: 60px;
+    border-radius: 20px;
 }
-
+.check-availability input + button{
+    margin: -1px;
+}
 /*///////////// 3.2 Testimonial /////////////*/
-.testimonial {
-    align-text: left;
-}
-article {
+.testimonial article {
     display: inline-block;
     position: relative;
     width: 600px;
@@ -74,15 +77,13 @@ article {
     text-align: left;
     border-radius: 10px;
 }
-
-
 /*///////////// 3.3 Support /////////////*/
 .support {
     align-content: center;
     /*image: width 600px;*/
     display: inline-block;
 }
-img {
+.support img {
     display: inline-block;
     width: 660px;
     border-radius: 10px;
@@ -91,8 +92,11 @@ img {
 
 /*///////////// 3.4 Faq /////////////*/
 
-ul {
-    list-style: circle;
+.faq ul {
+    list-style-type: square;
+    text-align: left;
+    padding: 100px 200px;
+    line-height: max(60px);
 }
 
 /*///////////// 3.5 Footer /////////////*/
