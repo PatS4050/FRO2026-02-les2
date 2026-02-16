@@ -20,9 +20,11 @@ Table of Contents:
     padding: 0;
     box-sizing: border-box;
 }
+
 ol, ul {
     list-style: none;
 }
+
 /*////////////////////////
     2. Typography
 ////////////////////////*/
@@ -31,13 +33,16 @@ ol, ul {
     font-weight: 400;
     font-style: normal;
 }
+
 H1 {
     font-weight: bold;
     font-size: 5rem;
 }
+
 H2 {
     font-weight: bold;
 }
+
 /*////////////////////////
     3. Areas
 ////////////////////////*/
@@ -45,32 +50,41 @@ H2 {
 /*///////////// 3.1 Header /////////////*/
 body {
     width: max(1000px);
+    position: relative;
+    margin: auto;
     background-image: url("/assets/images/mountains.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
+
 main {
     width: max(1000px);
     margin: 100px auto;
     padding: 0px 150px;
     text-align: center;
 }
+
 .content-domeinshop {
     line-height: 3;
     margin-bottom: 300px;
 }
-/*span {}*/
-.availability span {
+
+.availability {
     border: 2px;
     border: color #1C2B32;
-    width: 100%;
+    width: 600px;
     height: 90px;
     border-radius: 45px;
 }
-.check-availability input + button{
+
+#name-domain + #check-availability {
     margin: -1px;
 }
 
+#check-availability {
+    background: #1C2B32;
+    color: #FFFFFF;
+}
 /*///////////// 3.2 Testimonial /////////////*/
 .testimonial article {
     display: inline-block;
@@ -82,15 +96,17 @@ main {
     text-align: left;
     border-radius: 10px;
 }
+
 .testimonial img {
     position: relative;
     top: 30px;
     left: 25px;
     align: left;
-    img: height=(30px);
+    img: height =(30px);
     /*display: inline;*/
 }
-.avatar img{
+
+.avatar img {
     position: relative;
     bottom: 30px;
     left: 60px;
@@ -104,6 +120,7 @@ main {
     display: inline-block;
     padding: 100px 0px;
 }
+
 .support img {
     display: inline-block;
     width: 800px;
@@ -111,11 +128,23 @@ main {
     margin-top: 60px;
 }
 
+#contact {
+    background: black;
+    color: white;
+    height: 70px;
+    border-radius: 35px;
+    padding:25px 50px;
+}
+
+.support-text {
+    text-align: left;
+}
 /*///////////// 3.4 Faq /////////////*/
 .hide-text {
     display: none;
 }
-li:hover + .hide-text{
+
+li:hover + .hide-text {
     display: block;
     padding: 20px 20px;
     background-color: grey;
@@ -135,4 +164,5 @@ li:hover + .hide-text{
     padding: 100px 50px;
     line-height: max(60px);
 }
+
 /*///////////// 3.5 Footer /////////////*/
