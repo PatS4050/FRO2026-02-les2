@@ -18,10 +18,12 @@ Table of Contents:
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 ol, ul {
     list-style: none;
 }
+
 /*////////////////////////
     2. Typography
 ////////////////////////*/
@@ -41,7 +43,7 @@ H1 {
 
 /*///////////// 3.1 Header /////////////*/
 body {
-    background-image: url ("assets/images/mountains.jpg");
+    background-image: url ("/assets/images/mountains.jpg");
 }
 main {
     width: max(1000px);
@@ -70,13 +72,28 @@ main {
 .testimonial article {
     display: inline-block;
     position: relative;
-    width: 600px;
+    width: 800px;
     padding: 30px;
-    margin: 50px auto;
+    margin: 60px auto;
     box-shadow: 0 8px 24px #899CA0;
     text-align: left;
     border-radius: 10px;
 }
+.testimonial article img {
+    position: absolute;
+    top: 30px;
+    left: 25px;
+    align: left;
+    img: height=(30px);
+    /*display: inline;*/
+}
+.avatar {
+    position: absolute;
+    bottom: 30px;
+    left: 60px;
+    height: 30px;
+}
+
 /*///////////// 3.3 Support /////////////*/
 .support {
     align-content: center;
@@ -91,12 +108,29 @@ main {
 }
 
 /*///////////// 3.4 Faq /////////////*/
+.hide-text {
+    display: none;
+}
+li:hover + .hide-text{
+    display: block;
+    padding: 20px 20px;
+    background-color: grey;
+    color: white;
+    width: 700px;
+    border-radius: 10px;
+    line-height: 1.5;
+    /*position: absolute;*/
+    /*bottom: 500 px;*/
+    /*left: 450px;*/
+}
 
 .faq ul {
+    display: block;
     list-style-type: square;
     text-align: left;
-    padding: 100px 200px;
+    padding: 100px 50px;
     line-height: max(60px);
+
 }
 
 /*///////////// 3.5 Footer /////////////*/
