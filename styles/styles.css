@@ -48,37 +48,44 @@ H2 {
 ////////////////////////*/
 
 /*///////////// 3.1 Header /////////////*/
-body {
-    width: max(1000px);
+header {
+    width: 100%;
     position: relative;
     margin: auto;
     background-image: url("/assets/images/mountains.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
+    text-align: center;
+
 }
 
 main {
     width: max(1000px);
-    margin: 100px auto;
-    padding: 0px 150px;
+    /*margin: 100px auto;*/
+    padding: 0px 0px;
     text-align: center;
 }
 
 .content-domeinshop {
-    line-height: 3;
-    margin-bottom: 300px;
+    line-height: 2;
+    padding: 100px 100px;
 }
 
-.availability {
-    border: 2px;
-    border: color #1C2B32;
-    width: 600px;
-    height: 90px;
-    border-radius: 45px;
+.availability input{
+    border: 2px solid #1C2B32;
+    width: 200px;
+    height: 60px;
+    border-radius: 30px 0 0 30px;
+    text-align: center;
 }
 
-#name-domain + #check-availability {
-    margin: -1px;
+.availability button{
+    border: 2px solid #1C2B32;
+    width: 200px;
+    height: 60px;
+    border-radius: 0px 30px 30px 0px;
+    text-align: center;
+    margin: -10px;
 }
 
 #check-availability {
@@ -90,29 +97,32 @@ main {
     display: inline-block;
     position: relative;
     width: 800px;
-    padding: 30px;
+    padding: 30px 30px 30px 70px;
     margin: 60px auto;
     box-shadow: 0 8px 24px #899CA0;
-    text-align: left;
     border-radius: 10px;
+    text-align: left;
 }
 
-.testimonial img {
-    position: relative;
+.quote-left {
+    position: absolute;
     top: 30px;
     left: 25px;
-    align: left;
-    img: height =(30px);
+    height: 30px;
     /*display: inline;*/
 }
 
-.avatar img {
-    position: relative;
-    bottom: 30px;
+.avatar  {
+    /*position: absolute;*/
+    bottom: 20px;
     left: 60px;
     width: 30px;
+    vertical-align: middle;
 }
-
+.name-test{
+    display: inline;
+    padding: 20px;
+}
 /*///////////// 3.3 Support /////////////*/
 .support {
     align-content: center;
